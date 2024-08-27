@@ -31,5 +31,8 @@ class SumCalculatorTest {
         Assertions.assertThrows(IllegalArgumentException.class, () -> sumCalculator.sum(0));
     }
 
-
+    @Test
+    public void exampleTest() {
+        assertTrue(true, "This test should always pass");
+    }
 }
